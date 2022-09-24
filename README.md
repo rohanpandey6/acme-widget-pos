@@ -27,3 +27,7 @@ Screenshots for reference:
 <img width="868" alt="Screenshot 2022-09-24 at 7 14 22 PM" src="https://user-images.githubusercontent.com/75936788/192101391-14830508-343c-4cb4-8ec8-56779760f74e.png">
 
 
+Running tests:
+run runner.py from terminal/IDE/shell
+
+<img width="906" alt="Screenshot 2022-09-25 at 12 32 38 AM" src="https://user-images.githubusercontent.com/75936788/192114494-33266d99-0380-4a1d-a85a-c3b5f4144f0d.png">
