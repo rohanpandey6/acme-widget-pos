@@ -1,4 +1,4 @@
-from exceptions.pos_exceptions import ProductNotFound
+from exceptions.pos_exceptions import ProductAlreadyExists
 
 
 class Product:
@@ -17,7 +17,7 @@ class Catalogue:
 
     def add(self, product_code, product_name, product_price):
         if product_code in self.product_map.keys():
-            raise ProductNotFound("Product with code: {} already exists".format(product_code))
+            raise ProductAlreadyExists("Product with code: {} already exists".format(product_code))
         self.product_map[product_code] = Product(product_code, product_name, product_price)
 
     def get_catalogue(self):
