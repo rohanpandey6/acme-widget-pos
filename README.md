@@ -7,7 +7,15 @@ Assumptions:
 - Final Values rounded off to 2 decimal places
 
 
+Can be improved:
+- Current design for delivery charges is based on static values as per the assesment, it can be improved by creating base interface and extending multiple delivery strategies as per requirements.
+- Yaml/ Config files can be utilised for instantiating catalogue and also specifing the exact widget for the given offer type.
+- A chaining design based implementation can be done inorder to support and choose the best discount from multiple offers.
 
+
+
+Steps to execute:
+clone repo and run main.py from terminal/IDE/shell
 
 
 Screenshots for reference:
