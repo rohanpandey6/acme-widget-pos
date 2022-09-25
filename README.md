@@ -3,6 +3,7 @@ Interactive CLI based Proof of concept for a POS system
 
 Assumptions:
 - Unlimited Inventory for all the widgets
+- Shipping charges always depends on basket value.
 - Global currency used is USD
 - Final Values rounded off to 2 decimal places
 
